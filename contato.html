@@ -1,0 +1,58 @@
+<DOCTYPE html>
+	<html lang="pt - br">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
+		<title>Contato</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/cabecalho_rodape.css" />
+		<link rel="stylesheet" href="css/contato.css" />
+		<link rel="stylesheet" href="css/contato_flexbox.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body class="body" link="#111111" vlink="#111111">
+		<header class="header">
+			<div class="container cabecalho-container">
+				<img class="logotb" src="imagens/livro-de-contato.png">
+          <nav class="cabecalho-nav">
+              <a class="link" href="index.html">Agrotóxicos</a>
+              <a class="link" href="quemSomos.html">Quem Somos</a>
+              <a class="linkc" href="contato.html">Contato</a>
+          </nav>
+      </div>
+  </header>
+
+    <main>
+
+      <form class="formulario" action="arquivoqQueReceberaOsDados.x" method="POST">
+        <br />
+        <label for="nome">Nome</label>
+        <input class="input" type="text" id="nome" required placeholder=" Fulano de Tal">
+
+        <label for="email">E-mail</label>
+        <input class="input" type="email" id="email" required placeholder="  fulano.tal@gmail.com">
+
+        <label for="numero">Telefone</label>
+        <input class="input" type="number" id="numero" rows="13" required placeholder="  (xx) xxxxx-xxxx ">
+
+        <label class="msg">Mensagem</label>
+        <textarea class="msg.camp" type="text" id="nome" required cols="30" rows="10" id="mensagem"></textarea>
+
+        <br />
+
+        <input type="submit" value="Enviar formulário" class="enviar">
+
+        <br /><br /><br />
+
+      </form>
+    </main>
+
+    <footer class="rodape_index">
+          <img class="logoif" src="imagens/logoif.png">
+          <br/></br>
+            <p class="trodape"> &copy; Jackeline Santos, Kayky Esteves e Mary Cardoso, 2021 <p>
+        </footer>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(98, 218, 148);
+  font-family: 'Zilla Slab', serif;
+}
+
+.header {
+background-color:rgb(27, 104, 62);
+}
+
+.link {
+  color: #ffffff;
+}
+
+link2{
+  margin: 10% 5% 2% 5%;
+  text-align: justify;
+}
+
+.linkc {
+  color: rgb(98, 218, 148);
+}
+
+.link:hover{
+  color: rgb(98, 218, 148);
+}
+
+.tref{
+  display: flex;
+  margin: 2% 10% 1% 10%;
+  text-align: justify;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.titulo{
+  margin: 2% 10% 0% 10%;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.lista{
+  margin: 0% 10% 1% 10%;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.lista li{
+  margin: 25px 0px 25px 0px;
+}
+
+
+.link2:hover{
+  color: white;
+}
+
+.rodape {
+  background-color:rgb(27, 104, 62);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+
+.titulo{
+  margin: 7% 7% 0% 7%;
+  font-size: 27px;
+}
+
+.lista{
+  margin: 4% 7% 4% 7%;
+  font-size: 18px;
+}
+
+.lista li{
+  margin: 25px 0px 25px 0px;
+}
+
+.link2{
+  font-size: 18px;
+  margin: 30px 0px 30px 0px;
+  width: 10px;
+}
+}

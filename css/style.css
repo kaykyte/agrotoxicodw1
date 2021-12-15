@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(98, 218, 148);
+  font-family: 'Zilla Slab', serif;
+}
+
+.header {
+background-color:rgb(27, 104, 62);
+}
+
+.link {
+  color: #ffffff;
+}
+
+.linkc {
+  color: rgb(98, 218, 148);
+}
+
+.link:hover{
+  color: rgb(98, 218, 148);
+}
+
+.img1 {
+  display: flex;
+  width: 100%;
+  height: 40%;
+}
+
+.titulo{
+  margin: 2% 10% 0% 10%;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.paragrafo {
+  display: flex;
+  margin: 2% 10% 1% 10%;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.paragrafo1 {
+  display: flex;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.lista{
+  margin: 0% 10% 1% 10%;
+  font-size: 22px;
+  text-align: center;
+}
+
+.link1{
+  text-decoration: none;
+}
+
+.lista li{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.link2:hover{
+  color: white;
+}
+
+.img2{
+  display: flex;
+  position: center;
+  height: 250px;
+  margin: 2% 40% 2% 40%;
+}
+
+.img3{
+  display: flex;
+  position: center;
+  align-items: center;
+  height: 200px;
+}
+.img4{
+  display: flex;
+  position: center;
+  height: 250px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.img5{
+  display: flex;
+  position: center;
+  height: 250px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.img6{
+  display: flex;
+  position: center;
+  height: 250px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.img7{
+  display: flex;
+  position: center;
+  height: 200px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.est2{
+  display: flex;
+  margin: 2% 10% 1% 10%;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.rodape {
+  background-color:rgb(27, 104, 62);
+  color: #ffffff;
+}
+
+.lista3{
+  margin: 5% 15% 5% 15%;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .paragrafo {
+    margin: 60px 50px 60px 50px;
+  }
+
+.titulo{
+  margin: 7% 7% 0% 7%;
+  font-size: 27px;
+}
+
+.paragrafo {
+  margin: 2% 7% 1% 7%;
+  font-size: 18px;
+}
+
+.paragrafo1 {
+  margin: 0% 0% 1% 0%;
+  font-size: 18px;
+}
+
+.lista{
+  margin: 4% 7% 4% 7%;
+  font-size: 18px;
+}
+  .img1{
+    width: 100%;
+    height: 20%;
+  }
+
+  .img2{
+    height: 160px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}

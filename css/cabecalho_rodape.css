@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+  
+.logotb{
+    margin: 20px 30px 20px 0px;
+    width: 100px;
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+.cabecalho-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px; 
+    margin-left: 15px;
+  
+}
+  
+.linkc {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px; 
+    margin-left: 15px;
+}
+  
+.link:hover{
+    text-decoration: underline;
+}
+  
+.rodape {
+    font-size: 15px;
+    height: 70px;
+    text-align: center;
+    padding-bottom: 25px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.rodape_index {
+    font-size: 15px;
+    height: 70px;
+    text-align: center;
+    padding-bottom: 25px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.logoif{
+    width: 125px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px){
+
+  .logotb{
+    margin: 20px 0px 20px 0px;
+    width: 100px;
+  }
+  
+  .cabecalho-nav {
+    align-items: center;
+    flex-direction: column;
+    margin: 3px;
+  }
+
+  .link {
+    margin-top: 10px;
+  }
+  
+  .linkc {
+    margin-top: 10px;
+  }
+
+  .rodape_index {
+    font-size: 13px;
+    }
+
+  .rodape {
+  font-size: 13px;
+  }
+}

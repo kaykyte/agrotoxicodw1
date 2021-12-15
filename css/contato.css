@@ -1,0 +1,85 @@
+.body {
+  background-color: #ffa9d4;
+  font-family: 'Zilla Slab', serif;
+}
+
+.header{
+  background-color: rgb(207, 19, 107);
+}
+
+.link{
+  color: #ffffff;
+}
+
+.linkc{
+  color:#ffa9d4;
+}
+
+.link:hover{
+  color: rgb(0, 0, 0);
+}
+
+main{
+  width: 100%;
+  margin: 0px auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario label{
+  font-size: 20px;
+  margin: 0px 0px 5px 0px;;
+  font-weight: bold;
+}
+
+.input{
+  width: 65%;
+  margin-bottom: 20px;
+  padding: 7px 0px;
+}
+
+.msg{
+  display: block;
+}
+
+.msg.camp{
+  display: block;
+}
+
+.enviar{
+  margin-top: 15px;
+  width: 20%;
+  padding: 15px 0px;
+  background-color: rgb(207, 19, 107); 
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 1s all;
+  margin-bottom: 9.5%;
+  font-family: 'Zilla Slab', serif;
+}
+
+.enviar:hover{
+  background-color: #cc57b8;
+  color: #ffffff;
+  transform: scale(1.05);
+  border-radius: 7px;
+}
+
+.rodape_index {
+  background-color: rgb(207, 19, 107);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+  .enviar{
+  width: 80%;
+  }
+}

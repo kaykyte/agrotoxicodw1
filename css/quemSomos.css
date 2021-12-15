@@ -1,0 +1,160 @@
+.body {
+  background-color: #798de9;
+  font-family: 'Zilla Slab', serif;
+}
+
+header {
+  background-color: rgb(29, 3, 182);
+}
+
+.link{
+  color: #ffffff;
+}
+
+.linkc{
+  color: #798de9;
+}
+
+
+.link:hover{
+  color: rgb(0, 0, 0);
+}
+
+.integrantes .alunos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.integrantes h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+}
+
+.alunos li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 40px 30px 40px;
+}
+
+.alunos h2{
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  transition: 0.5s all;
+}
+
+.alunos li:hover h2{
+  transform: scale(1.05);
+}
+
+
+.alunos p{
+  text-align: center;
+  font-style:italic;
+  width: 250px;
+  font-size: 20px;
+  margin: 0 0 5px 0;
+  transition: 0.5s all;
+}
+
+.alunos li:hover p{
+  transform: scale(1.05);
+  margin: 2px 0px 0px 0px;
+}
+
+.alunos img{
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  margin: 5px 0px 7px 0px;
+  transition: 0.5s all;
+}
+
+.alunos li:hover img{
+  transform: scale(1.05);
+}
+
+.integrantes .prof{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.prof li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 40px 30px 40px;
+}
+
+.prof h2{
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 5px 0;
+  font-weight: bold;  
+  transition: 0.5s all;
+}
+
+.prof li:hover h2{
+  text-align: center;
+  transform: scale(1.05);
+}
+
+.prof img{
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+  margin: 5px 0px 7px 0px;
+  transition: 0.5s all;
+}
+
+.prof li:hover img{
+  transform: scale(1.05);
+}
+
+.prof p{
+  font-size: 20px;
+  text-align: center;
+  transition: 0.5s all;
+  margin: 0 0 5px 0;
+}
+
+.prof li:hover p{
+  transform: scale(1.05);
+  margin: 2px 0px 5px 0px;
+}
+
+.prof nav{
+  text-align: center;
+}
+
+.prof a{
+  transition: 0.5s all;
+}
+
+.prof li:hover a{
+  transform: scale(1.05);
+  color: #ffffff;
+  text-transform: none;
+}
+
+.rodape {
+  background-color: rgb(29, 3, 182);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+  .alunos{
+    flex-wrap: wrap;
+  }
+  .prof{
+    flex-wrap: wrap;
+  }
+}
